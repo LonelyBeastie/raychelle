@@ -1,3 +1,59 @@
-.opening{
-  height: 100vh;
+/*fonts*/
+@font-face {
+    font-family: breathpro;
+    src: url(fonts/BreathPro.otf);
 }
+@font-face {
+    font-family: keplerstd-semibold;
+    src: url(fonts/KeplerStd-Semibold.otf);
+}
+@font-face {
+    font-family: mreavessanot_bold;
+    src: url(fonts/MrEavesSanOT-Bold.otf);
+}
+@font-face {
+    font-family: mreavessanot_reg;
+    src: url(fonts/MrEavesSanOT-Reg.otf);
+}
+.font_breathpro{ font-family: breathpro;}
+.font_keplerstd-semibold{ font-family: keplerstd-semibold;}
+.font_mreavessanot_bold{ font-family: mreavessanot_bold;}
+.font_mreavessanot_reg{ font-family: mreavessanot_reg;}
+
+/*images*/
+.home_background{ background-image:url("../img/home_background.png");}
+.home_logo{ background-image:url("../img/home_logo.png");}
+.registry_1{ background-image:url("../img/registry_1.png");}
+.registry_2{ background-image:url("../img/registry_2.png");}
+.registry_3{ background-image:url("../img/registry_3.png");}
+
+.background-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main-img{
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+/*colors*/
+.blue{ background-color: #14395B;}
+.pink{ background-color: #C6A5B7;}
+
+.no-padding{padding: 0;}
+
+/*div heights*/
+.opening{height: 100vh;}
+.banner{height: 25vh;}
+.banner-title{
+  color: #C6A5B7;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+/*.container-fluid{padding: 0}*/
