@@ -27,6 +27,20 @@
 .registry_2{ background-image:url("../img/registry_2.png");}
 .registry_3{ background-image:url("../img/registry_3.png");}
 
+.navbar{
+  display: none;
+}
+.rc-logo{
+  width: 100%;
+}
+.big-nav{
+  margin-top: 30px;
+}
+.title-navbar{
+  background-color: rgba(255,255,255, .8);
+  height: 20px;
+}
+
 .background-img{
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,10 +55,20 @@
 .blue{ background-color: #14395B;}
 .pink{ background-color: #C6A5B7;}
 
-.no-padding{padding: 0;}
+/*.no-padding{padding: 0;}*/
 
 /*div heights*/
 .opening{height: 100vh;}
+.vert-center{
+  position: absolute;
+  top: 50%;
+  /*left: 50%;*/
+  -webkit-transform: translate(0%, 50%);
+  transform: translate(0%, 50%);
+}
+.left-side{left: 5%;}
+.right-side{right: 5%;}
+
 .banner{height: 25vh;}
 .banner-title{
   color: #C6A5B7;
