@@ -68,7 +68,7 @@
 .left-side{left: 5%;}
 .right-side{right: 5%;}
 
-.banner{height: 25vh;}
+.banner{height: 12vh;}
 .banner-title{
   letter-spacing: 4px;
   font-family: keplerstd-semibold;
@@ -78,7 +78,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, 150%);
-  transform: translate(-50%, 150%);
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+p{
+  font-family: mreavessanot_reg;
+  color: #14395B;
 }
 /*.container-fluid{padding: 0}*/
