@@ -85,4 +85,7 @@ p{
   font-family: mreavessanot_reg;
   color: #14395B;
 }
-/*.container-fluid{padding: 0}*/
+.section-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
