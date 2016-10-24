@@ -27,12 +27,12 @@
 .registry_2{ background-image:url("../img/registry_2.png");}
 .registry_3{ background-image:url("../img/registry_3.png");}
 
-.navbar{
-  display: none;
-}
-.rc-logo{
-  width: 100%;
-}
+.navbar{display: none;}
+.navbar-default { background-color: rgba(255,255,255, .8);}
+.nav>li>a:hover {background-color: inherit;}
+.nav>li>a{letter-spacing: 3px;}
+.rc-logo{ width: 100%;}
+.rc-logo-brand{ width: 10%;}
 .big-nav{
   margin-top: 30px;
   background-color: rgba(255,255,255, .8);
@@ -52,6 +52,7 @@
 /*colors*/
 .blue{ background-color: #14395B;}
 .pink{ background-color: #C6A5B7;}
+.navbar-brand.pink-text{ color: #C6A5B7;}
 
 /*.no-padding{padding: 0;}*/
 
@@ -69,6 +70,7 @@
 
 .banner{height: 25vh;}
 .banner-title{
+  letter-spacing: 4px;
   font-family: keplerstd-semibold;
   color: #C6A5B7;
   padding: 0;

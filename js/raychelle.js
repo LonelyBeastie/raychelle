@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $('li a').smoothScroll();
+  $('li a').smoothScroll({offset: -50});
+
   if ($(window).width()<992){
     $('.navbar').fadeIn();
   }
@@ -18,8 +19,10 @@ $(document).scroll(function() {
   var y = $(this).scrollTop();
   if ($(window).width()>992){
     if (y > 35) {
+      $('.big-nav').fadeOut();
       $('.navbar').fadeIn();
     } else {
+      $('.big-nav').fadeIn();
       $('.navbar').fadeOut();
     }
   }
