@@ -35,10 +35,8 @@
 }
 .big-nav{
   margin-top: 30px;
-}
-.title-navbar{
   background-color: rgba(255,255,255, .8);
-  height: 20px;
+  padding-top: -20px;
 }
 
 .background-img{
@@ -59,12 +57,12 @@
 
 /*div heights*/
 .opening{height: 100vh;}
-.vert-center{
+.big-nav-links-right{
   position: absolute;
   top: 50%;
-  /*left: 50%;*/
-  -webkit-transform: translate(0%, 50%);
-  transform: translate(0%, 50%);
+  right: 2%;
+  /*-webkit-transform: translate(0%, 50%);
+  transform: translate(0%, 50%);*/
 }
 .left-side{left: 5%;}
 .right-side{right: 5%;}

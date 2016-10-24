@@ -3,23 +3,17 @@ layout: default
 ---
 <div class="row opening background-img home_background">
   <div class="col-md-12">
-    <div class="">
-      <div class="row big-nav">
-        <div class="col-sm-4">
-          <img src="img/home_logo.png" class="rc-logo" alt="Raychelle logo" />
-        </div>
-        <div class="col-sm-8 ">
-          <ul class="nav nav-pills navbar-right">
-            {% include nav-links.html %}
-          </ul>
-        </div>
+    <div class="row big-nav hidden-xs hidden-sm">
+      <div class="col-sm-4">
+        <img src="img/home_logo.png" class="rc-logo" alt="Raychelle logo" />
       </div>
-      <div class="row title-navbar">
-
-      </div>
+      <ul class="nav nav-pills big-nav-links-right">
+        {% include nav-links.html %}
+      </ul>
     </div>
   </div>
 </div>
+
 <div class="row banner blue">
   <div class="col-md-12">
     <h1 class="banner-title">PROPOSAL</h1>
