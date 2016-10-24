@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.gm-nav a').smoothScroll();
+  $('li a').smoothScroll();
   if ($(window).width()<992){
     $('.navbar').fadeIn();
   }
