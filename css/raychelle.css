@@ -26,6 +26,14 @@
 .registry_1{ background-image:url("../img/registry_1.png");}
 .registry_2{ background-image:url("../img/registry_2.png");}
 .registry_3{ background-image:url("../img/registry_3.png");}
+.slider_1{ background-image:url("../img/slider/slider_1.jpg");}
+.slider_2{ background-image:url("../img/slider/slider_2.jpg");}
+
+.slider-pics{
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navbar{display: none;}
 .navbar-default { background-color: rgba(255,255,255, .8);}
@@ -70,7 +78,11 @@
 }
 .left-side{left: 5%;}
 .right-side{right: 5%;}
-
+.center-me{
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
 .banner{height: 12vh;}
 .banner-title{
   letter-spacing: 4px;
