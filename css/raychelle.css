@@ -1,7 +1,7 @@
 /*fonts*/
 @font-face {
     font-family: breathpro;
-    src: url(fonts/BreathPro.otf);
+    src: url(fonts/BreathePro.otf);
 }
 @font-face {
     font-family: keplerstd-semibold;
@@ -52,7 +52,10 @@
 /*colors*/
 .blue{ background-color: #14395B;}
 .pink{ background-color: #C6A5B7;}
-.navbar-brand.pink-text{ color: #C6A5B7;}
+.navbar-brand.blue-text{
+  color: #14395B;
+  font-size: 25px;
+}
 
 /*.no-padding{padding: 0;}*/
 
@@ -90,3 +93,4 @@ p{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.bigger{ font-size: 25px; }
