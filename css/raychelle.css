@@ -62,7 +62,6 @@
   width: 50%;
   padding-bottom: 20px;
 }
-img{width: 100%;}
 
 /*colors*/
 .blue{ background-color: #14395B;}
@@ -115,3 +114,7 @@ p{
   padding-bottom: 30px;
 }
 .bigger{ font-size: 25px; }
+
+    @media only screen and (max-width : 480px) {
+      img{width: 100%;}
+    }
