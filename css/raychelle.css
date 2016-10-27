@@ -23,6 +23,7 @@
 /*images*/
 .home_background{ background-image:url("../img/home_background.png");}
 .home_logo{ background-image:url("../img/home_logo.png");}
+.springs{ background-image:url("../img/springs.jpg");}
 .registry_1{ background-image:url("../img/registry_1.png");}
 .registry_2{ background-image:url("../img/registry_2.png");}
 .registry_3{ background-image:url("../img/registry_3.png");}
@@ -93,17 +94,19 @@
   letter-spacing: 4px;
   font-family: keplerstd-semibold;
   color: #C6A5B7;
-  padding: 0;
+  padding: 2.5px 0 0 0;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
+  white-space: nowrap;
 }
 p{
   font-family: mreavessanot_reg;
   color: #14395B;
+  font-size: 15px;
 }
 .top-padding{ padding-top: 30px;}
 .section-content{

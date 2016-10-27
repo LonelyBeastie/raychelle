@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $('li a').smoothScroll({offset: -50});
+
+  $('li a').smoothScroll({offset: -50}); // smooth scrolling offset for navbar
+
+  $('.carousel').carousel({interval: false}); //makes slider not auto slide
 
   if ($(window).width()<992){
     $('.navbar').fadeIn();
