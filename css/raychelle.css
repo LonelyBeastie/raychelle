@@ -89,12 +89,12 @@
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
 }
-.banner{height: 12vh;}
+.banner{height: 85px;}
 .banner-title{
   letter-spacing: 4px;
   font-family: keplerstd-semibold;
   color: #C6A5B7;
-  padding: 2.5px 0 0 0;
+  padding: 5px 0 0 0;
   margin: 0;
   position: absolute;
   top: 50%;
