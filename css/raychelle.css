@@ -19,6 +19,7 @@
 .font_keplerstd-semibold{ font-family: keplerstd-semibold;}
 .font_mreavessanot_bold{ font-family: mreavessanot_bold;}
 .font_mreavessanot_reg{ font-family: mreavessanot_reg;}
+.upcase{ text-transform: uppercase;}
 
 /*images*/
 .home_background{ background-image:url("../img/home_background.png");}
@@ -37,9 +38,8 @@
 .slider_8{ background-image:url("../img/slider/slider_8.jpg");}
 .slider_9{ background-image:url("../img/slider/slider_9.jpg");}
 
-.slider-pics{
-  height: 70vh;
-}
+.slider-pics{height: 70vh;}
+.full-width{width: 100%;}
 
 .navbar{display: none;}
 .navbar-default { background-color: rgba(255,255,255, .8);}
