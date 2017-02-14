@@ -20,7 +20,9 @@
 .font_mreavessanot_bold{ font-family: mreavessanot_bold;}
 .font_mreavessanot_reg{ font-family: mreavessanot_reg;}
 .upcase{ text-transform: uppercase;}
-
+span.font_breathpro.bigger{ font-size: 35px; }
+span.font_keplerstd-semibold.upcase{ font-size: 25px; }
+img.center-block.full-width{ padding-top: 5px; }
 /*images*/
 .home_background{ background-image:url("../img/home_background.png");}
 .home_logo{ background-image:url("../img/home_logo.png");}
